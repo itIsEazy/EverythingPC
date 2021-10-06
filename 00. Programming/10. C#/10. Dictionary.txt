@@ -1,0 +1,64 @@
+
+
+
+Microsoft documentation link : 
+https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=net-5.0
+
+What is Dictionary ? 
+
+Dictionary is just like array or List BUT every element is represented like Key-Value Pair ! 
+
+Why Dictionary ? 
+
+Let say we have 100 students and EACH student has : (Name and Age)
+We can easily create array/List for all the student names 
+and 
+create second array/List for all the student ages
+
+BUT 
+
+with dictionaries we can create 1 Dictionary<TKey,TValue> students;
+
+Dictionary<string, int> students = new Dictionary<string, int>();
+
+for the Keys we will put their Names 
+and for Values -> their Ages
+
+students.Add("Emo",20);
+
+
+
+okey so now our students have ClassNumber ! and we must save their ClassNumber, Name, Age
+
+with Dictionaries we can create Dictionary<string, Dictionary<string, int>> students;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
